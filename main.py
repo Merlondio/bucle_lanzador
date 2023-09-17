@@ -25,7 +25,6 @@ while True:
     logging.debug(f'Iteracion numero: {contador_iteraciones}')
     try:
         pass
-        print (4/0)
     except Exception:
         error = traceback.format_exc()
         logging.error(error)
